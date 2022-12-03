@@ -1,0 +1,54 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+nav {
+  background-color: white;
+}
+
+.overall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.btn {
+  margin-right: 40px;
+}
+.codin {
+  padding-left: 40px;
+}
+
+.adit {
+  color: #4798d1;
+}
+button {
+  color: #4798d1;
+  border: none;
+  font-size: 15px;
+  background-color: transparent;
+}
+.gbo {
+  padding-left: 40px;
+}
+.links {
+  height: 0px;
+  overflow: hidden;
+}
+.show-links {
+  height: 11rem;
+}
+li {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
